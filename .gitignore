@@ -1,0 +1,20 @@
+# Ignore everything
+*
+.BlaBla
+
+# But not these files...
+!.gitignore
+!deploy.sh
+!master.yaml
+!logo.png
+!README.md
+
+# DirOne files...
+!*/DirOne/template.yaml
+!*/DirOne/tests/*
+!*/DirOne/README.md
+!*/DirOne/events/*
+!*/DirOne/create_dirone/__init__.py
+!*/DirOne/create_dirone/app.py
+!*/DirOne/create_dirone/requirements.txt
+
